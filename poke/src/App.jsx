@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import './App.css';
+import Header from './Components/Header/Header';
 
 /* 
 fetch data ✅
@@ -25,7 +26,7 @@ function App() {
 
   return (
     <div className="App">
-      Hello
+      <Header/>
     </div>
   )
 }
