@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import './App.css';
+import Cards from './Components/Cards/Cards';
 import Header from './Components/Header/Header';
 
 /* 
@@ -31,12 +32,16 @@ function App() {
       
       setPokemons((prev)=> [...prev, newPokemon]);
     }
-    getPokemon();
+
+    for (let i =0; i< 151; i++){
+      getPokemon(i);
+    }
   }, []);
 
   return (
     <div className="App">
       <Header/>
+      <Cards/>
     </div>
   )
 }
