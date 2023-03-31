@@ -1,0 +1,21 @@
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.eachcards {
+    background-color: whitesmoke;
+    padding: 2rem;
+    margin: 1rem;
+    border-radius: 2rem;
+    text-align: center;
+    /* z-index: -1; */
+    width: 175px;
+}
+
+.pokeimage {
+    width: 150px;
+    height: 150px;
+    /* z-index: 5; */
+}

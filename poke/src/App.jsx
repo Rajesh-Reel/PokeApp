@@ -5,8 +5,9 @@ import Header from './Components/Header/Header';
 
 /* 
 fetch data ✅
-place into card props via drilling
-render card component onto page
+place into card props via drilling ✅
+render card component onto page ✅
+complete card component
 style cards and front end
 */
 
