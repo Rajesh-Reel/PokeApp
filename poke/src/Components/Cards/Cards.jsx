@@ -15,7 +15,9 @@ function Cards(pokemons) {
                         <div className="pokecircle">
                         </div>
                         <div>
-                            <h6></h6>
+                            <h6>#{pokemon.num}</h6>
+                            <h3>{pokemon.name[0].toUpperCase()+ pokemon.name.slice(1)}</h3>
+                            <h5 className='typeofpoke'>Type: { pokemon.type2 ? <h4>  {pokemon.type}, {pokemon.type2}</h4>: <h4> {pokemon.type}</h4> }</h5>
                         </div>
                     </div>
                 )
