@@ -2,6 +2,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    position: relative;
 }
 
 .eachcards {
@@ -10,12 +11,24 @@
     margin: 1rem;
     border-radius: 2rem;
     text-align: center;
-    /* z-index: -1; */
+    z-index: 0;
     width: 175px;
 }
 
 .pokeimage {
     width: 150px;
     height: 150px;
-    /* z-index: 5; */
+    z-index: 1;
+}
+
+.pokecircle {
+    background-color: aqua;
+    border-radius: 100px;
+    width: 150px;
+    height: 150px;
+    position: relative;
+    margin-top: -150px ;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: -1;
 }

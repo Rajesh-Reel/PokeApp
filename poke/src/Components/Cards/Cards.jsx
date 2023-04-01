@@ -9,7 +9,14 @@ function Cards(pokemons) {
             {pokemons.pokemons.sort((a, b) => a.id > b.id ? 1 : -1).map(function (pokemon) {
                 return (
                     <div className='eachcards' key={pokemon.id}>
-                        <img className='pokeimage' alt={"pokemon"} src={pokemon.image}></img>
+                        <div>
+                            <img className='pokeimage' alt={"pokemon"} src={pokemon.image}></img>
+                        </div>
+                        <div className="pokecircle">
+                        </div>
+                        <div>
+                            <h6></h6>
+                        </div>
                     </div>
                 )
             })
